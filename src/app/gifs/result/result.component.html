@@ -1,0 +1,20 @@
+<div class="row">
+    <!-- <div class="col"> -->
+      <div *ngFor="let r of results; let i =index" class="col-md-4 col-sm-6">
+        <div class="card">
+          <img [src]="r.images.downsized_medium.url" [alt]="r.title"
+          class="card-img-top">
+          <div class="card-boy">
+            <p class="card-text">
+              {{r.title}}
+            </p>
+          </div>
+        </div>
+        
+      </div>
+    <!-- </div> -->
+  </div>
+
+
+
+  
