@@ -6,6 +6,7 @@
   href="#" 
   class="list-group-item list-group-item-action"
   *ngFor="let c of history"
+  (click)="search(c)"
   >{{c | titlecase}}</a>
   
   </div>

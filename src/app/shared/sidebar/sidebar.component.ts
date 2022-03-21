@@ -17,4 +17,9 @@ get history():string[]{
   ngOnInit(): void {
   }
 
+  search(query:string):void{
+    this.gifsService.searchGifs(query);
+
+  }
+
 }
